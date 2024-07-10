@@ -1,0 +1,52 @@
+.card {
+  &__img {
+    display: block;
+    max-inline-size: 100%;
+    block-size: auto;
+    border-radius: 10px 10px 0 0;
+  }
+  &__body {
+    padding: 2.4rem;
+    background-color: var(--color-pure-white);
+    border-radius: 0 0 10px 10px;
+    &__category {
+      margin-bottom: 1.2rem;
+    }
+    &__productName {
+      margin-bottom: 1.6rem;
+    }
+    &__description {
+      margin-bottom: 2.4rem;
+      font-size: 1.4rem;
+      font-weight: 500;
+    }
+    &__price {
+      display: flex;
+      align-items: center;
+      gap: 1.9rem;
+      margin-bottom: 2rem;
+      &__discount {
+        color: var(--color-deep-aquamarine);
+      }
+      &__full {
+        text-decoration: line-through;
+      }
+      font-size: 1.3rem;
+      color: var(--color-aurometal-saurus);
+    }
+    &__btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.2rem;
+      min-width: 11.1rem;
+      width: 100%;
+      font-weight: 700;
+      padding: 1.6rem 9.2rem;
+      border: none;
+      border-radius: 8px;
+      color: var(--color-pure-white);
+      background-color: var(--color-deep-aquamarine);
+    }
+  }
+}

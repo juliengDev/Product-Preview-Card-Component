@@ -1,12 +1,10 @@
 :root {
-  --color-dark-charcoal: #312e2c;
-  --color-dark-raspberry: #7a284e;
-  --color-brandy-red: #854632;
-  --color-wenge-brown: #5f564d;
-  --color-eggshell: #f3e5d7;
-  --color-white-coffee: #e3ddd7;
-  --color-snow: #fff7fb;
-  --color-pure-white: #ffffff;
+  --color-pure-white: #fff;
+  --color-cream: #f2eae2;
+  --color-aurometal-saurus: #6c7289;
+  --color-deep-aquamarine: #3d8168;
+  --color-deep-aquamarine-hover: #1a4032;
+  --color-gunmetal: #1c232b;
 }
 
 * {
@@ -23,7 +21,7 @@ body {
   position: relative;
   min-height: 100vh;
   margin: 0;
-  
+  background-color: var(--color-cream);
 }
 html {
   box-sizing: border-box;
