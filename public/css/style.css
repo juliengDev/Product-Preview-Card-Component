@@ -126,7 +126,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  margin: 17.5rem auto;
+  margin: 17.5rem auto 3rem;
   max-width: 60rem;
 }
 @media (max-width: 37.5rem) {
