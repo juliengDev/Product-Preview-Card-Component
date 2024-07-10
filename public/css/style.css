@@ -217,11 +217,11 @@ body {
   border-radius: 8px;
   color: var(--color-pure-white);
   background-color: var(--color-deep-aquamarine);
-  transition: background-color 0.4s ease;
+  transition: background-color 0.3s ease;
 }
 .card__body__btn:hover {
   background-color: var(--color-deep-aquamarine-hover);
-  cursor: url("../../images/handcursor.png"), auto;
+  cursor: url("../../images/Pointer.png"), auto;
 }
 
 .attribution {
