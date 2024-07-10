@@ -8,6 +8,8 @@
     @include respond(mobile) {
       border-radius: 10px 10px 0 0;
       max-width: 100%;
+      object-fit: cover;
+      max-height: 24rem;
     }
   }
   &__body {
