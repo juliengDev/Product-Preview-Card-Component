@@ -21,11 +21,13 @@
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
+  margin: 17.5rem auto;
+  max-width: $container-default-width;
 
   @include respond(mobile) {
     flex-direction: column;
-    margin: 2.8rem 1.6rem;
+    margin: 2.8rem auto;
     max-width: $container-mobile-width;
     padding: 0;
   }
