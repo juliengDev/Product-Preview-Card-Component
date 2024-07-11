@@ -36,7 +36,7 @@
     }
     &__description {
       margin-bottom: 2.9rem;
-      font-size: calc(1.4rem + 1.5vw);
+      font-size: 1.4rem;
       font-weight: 500;
       @include respond(mobile) {
         margin-bottom: 2.4rem;
@@ -56,7 +56,7 @@
       }
       &__full {
         text-decoration: line-through;
-        font-size: calc(1.3rem + 1.5vw);
+        font-size: 1.3rem;
         color: var(--color-aurometal-saurus);
       }
     }

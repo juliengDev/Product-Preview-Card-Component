@@ -82,19 +82,19 @@ FONT SIZE SYSTEM (px)
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  line-height: 1.5;
-  font-size: calc(1.4rem + 1.5vw);
+  line-height: 24px;
+  font-size: 1.4rem;
 }
 
 .display {
   font-family: "Fraunces", serif;
   font-weight: 700;
-  font-size: calc(3.2rem + 1.5vw);
-  line-height: 2;
+  font-size: 3.2rem;
+  line-height: 32px;
 }
 
 .overline {
-  font-size: calc(1.2rem + 1.5vw);
+  font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -181,7 +181,7 @@ body {
 }
 .card__body__description {
   margin-bottom: 2.9rem;
-  font-size: calc(1.4rem + 1.5vw);
+  font-size: 1.4rem;
   font-weight: 500;
 }
 @media (max-width: 37.5rem) {
@@ -206,7 +206,7 @@ body {
 }
 .card__body__price__full {
   text-decoration: line-through;
-  font-size: calc(1.3rem + 1.5vw);
+  font-size: 1.3rem;
   color: var(--color-aurometal-saurus);
 }
 .card__body__btn {
@@ -230,7 +230,7 @@ body {
 
 .attribution {
   margin: 1.6rem 0 6rem;
-  font-size: calc(1.1rem + 1.5vw);
+  font-size: 1.1rem;
   text-align: center;
   color: var(--color-aurometal-saurus);
 }

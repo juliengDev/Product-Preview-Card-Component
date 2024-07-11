@@ -17,19 +17,19 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  line-height: 1.5;
-  font-size: calc(1.4rem + 1.5vw);
+  line-height: 24px;
+  font-size: 1.4rem;
 }
 
 .display {
   font-family: "Fraunces", serif;
   font-weight: 700;
-  font-size: calc(3.2rem + 1.5vw);
-  line-height: 2;
+  font-size: 3.2rem;
+  line-height: 32px;
 }
 
 .overline {
-  font-size: calc(1.2rem + 1.5vw);
+  font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 5px;
   text-transform: uppercase;
