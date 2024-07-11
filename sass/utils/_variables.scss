@@ -20,7 +20,7 @@ $color-white: #fff;
 $color-black: #000;
 
 // FONT
-$default-font-size: 1.6rem;
+$default-font-size: calc(1.6rem + 1.5vw);
 
 // GRID
 $grid-width: 114rem;
